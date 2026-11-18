@@ -1,0 +1,4 @@
+09:00 LOGIN_SUCCESS user=alex ip=192.0.2.10
+09:01 LOGIN_FAILED user=sam ip=192.0.2.20
+09:02 LOGIN_FAILED user=sam ip=192.0.2.20
+09:03 LOGIN_SUCCESS user=maya ip=192.0.2.30
