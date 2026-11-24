@@ -11,4 +11,5 @@ with open("sample.log", "r", encoding="utf-8") as file:     #this is opening the
                 current_count = failures_by_ip.get(ip_address, 0)
                 failures_by_ip[ip_address] = current_count + 1
 print(failed_count)
-print(failures_by_ip)
+for ip, count in failures_by_ip.items(): # .items() allows for the loop to grab 'ip', and 'count'" 
+    print(ip, count)
